@@ -21,10 +21,8 @@
   <span>Sri Lakshmi Traders</span>
 </div>
 
-<!-- MOBILE MENU BUTTON -->
 <div class="menu-toggle" id="menuToggle">☰</div>
 
-<!-- NAV LINKS -->
 <div class="nav-links" id="navLinks">
   <a href="#about">About</a>
   <a href="#services">Services</a>
@@ -64,20 +62,10 @@ and strong market relationships across leading cement brands.
 <section id="about" class="section container">
 <h2>About the Company</h2>
 
-<p>
-Sri Lakshmi Traders has built a strong reputation in Visakhapatnam as a dependable cement supplier,
-known for reliability, consistency, and long-term customer relationships.
-</p>
+<p>Trusted cement supplier with 25+ years of experience serving builders and contractors across Visakhapatnam.</p>
 
-<p>
-With more than two decades of experience, the firm has developed strong partnerships with major cement manufacturers,
-ensuring steady availability and timely delivery for projects of all scales.
-</p>
+<p>Strong partnerships with major cement brands ensure availability, reliability, and timely delivery.</p>
 
-<p>
-Our commitment to quality service and competitive pricing has made us a preferred choice for builders,
-contractors, and individual customers across the city.
-</p>
 </section>
 
 <!-- SERVICES -->
@@ -88,36 +76,27 @@ contractors, and individual customers across the city.
 <div class="grid">
 <div class="card">Wholesale Cement Supply</div>
 <div class="card">OPC, PPC & PSC Cement</div>
-<div class="card">Bulk Orders & Site Delivery</div>
-<div class="card">Best Market Pricing</div>
-<div class="card">Reliable Supply Chain</div>
+<div class="card">Bulk Orders</div>
+<div class="card">Best Pricing</div>
+<div class="card">Fast Delivery</div>
 </div>
 </section>
 
-<!-- BRANDS -->
+<!-- BRANDS (UPDATED) -->
 
 <section id="brands" class="section container">
 
 <h2>Brands We Deal</h2>
 
-<p class="section-desc">
-We supply a wide range of trusted cement brands known for strength, durability, and performance.
-</p>
-
-<h3 class="sub-heading">Major Brands</h3>
 <div class="brand-grid">
-<img src="assets/brands/nagarjuna.png">
-<img src="assets/brands/maha.png">
-<img src="assets/brands/ramco.png">
-<img src="assets/brands/deccan.png">
-<img src="assets/brands/ultratech.png">
-</div>
-
-<h3 class="sub-heading">Other Brands</h3>
-<div class="brand-grid">
-<img src="assets/brands/chettinad.png">
-<img src="assets/brands/ambuja.png">
-<img src="assets/brands/rain.png">
+<div class="brand-card">Nagarjuna</div>
+<div class="brand-card">Maha</div>
+<div class="brand-card">Ramco</div>
+<div class="brand-card">Deccan</div>
+<div class="brand-card">UltraTech</div>
+<div class="brand-card">Chettinad</div>
+<div class="brand-card">Ambuja</div>
+<div class="brand-card">Rain</div>
 </div>
 
 </section>
@@ -143,7 +122,6 @@ We supply a wide range of trusted cement brands known for strength, durability, 
 <span>- Customer</span>
 </div>
 </div>
-
 </section>
 
 <!-- CONTACT -->
@@ -155,7 +133,6 @@ We supply a wide range of trusted cement brands known for strength, durability, 
 <p>📞 +91 9246679204</p>
 <p>📞 +91 9246679200</p>
 <p>📧 srilakshmitraders9@gmail.com</p>
-<p>📍 MVP Colony, Visakhapatnam</p>
 
 <p class="enquiry">
 For any purchase enquiries, kindly contact us directly — we ensure prompt response and best pricing.
@@ -167,23 +144,19 @@ Open Location
 
 </section>
 
-<footer>
-© Sri Lakshmi Traders
-</footer>
+<footer>© Sri Lakshmi Traders</footer>
 
-<!-- WHATSAPP FLOAT -->
+<!-- FLOAT -->
 
 <a href="https://wa.me/919246679204" class="whatsapp-float" target="_blank">💬</a>
 
-<!-- STICKY BAR -->
+<!-- STICKY -->
 
 <div class="sticky-bar">
 <a href="tel:+919246679204">Call</a>
-<a href="https://wa.me/919246679204" target="_blank">WhatsApp</a>
+<a href="https://wa.me/919246679204" target="_blank">Chat</a>
 <a href="https://maps.app.goo.gl/z89gEEzpDmvaVqsG7" target="_blank">Location</a>
 </div>
-
-<!-- SCRIPTS -->
 
 <script>
 const toggle = document.getElementById("menuToggle");
@@ -191,17 +164,6 @@ const nav = document.getElementById("navLinks");
 
 toggle.addEventListener("click", () => {
   nav.classList.toggle("active");
-});
-
-const elements = document.querySelectorAll('.section, .card, .testimonial-card');
-
-window.addEventListener('scroll', () => {
-  elements.forEach(el => {
-    const pos = el.getBoundingClientRect().top;
-    if(pos < window.innerHeight - 80){
-      el.classList.add('show');
-    }
-  });
 });
 </script>
 
