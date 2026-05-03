@@ -16,24 +16,24 @@
 <body>
 
 <header class="site-header">
-<nav class="navbar container">
+  <nav class="navbar container">
 
 <div class="brand">
-<img src="assets/logo.png" alt="Logo">
-<span>Sri Lakshmi Traders</span>
+  <img src="assets/logo.png" alt="Logo">
+  <span>Sri Lakshmi Traders</span>
 </div>
 
 <div class="menu-toggle" id="menuToggle">☰</div>
 
 <div class="nav-links" id="navLinks">
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="founder.html">Founder</a>
-<a href="#brands">Brands</a>
-<a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="founder.html">Founder</a>
+  <a href="#brands">Brands</a>
+  <a href="#contact">Contact</a>
 </div>
 
-</nav>
+  </nav>
 </header>
 
 <!-- HERO -->
@@ -57,19 +57,26 @@ for reliability, consistent supply, and competitive pricing across major cement 
 </div>
 </section>
 
-<!-- CONSTRUCTION SHOWCASE -->
+<!-- 🔥 CONSTRUCTION SECTION ADDED -->
 
 <section class="construction-showcase">
-<img src="assets/construction.png" alt="Construction Site">
-<div class="overlay"></div>
 
-<div class="construction-content">
-<h2>Building trust. Delivering strength.</h2>
+  <img src="assets/construction.png" alt="Construction Site">
+
+  <div class="overlay"></div>
+
+  <div class="construction-content">
+    <h2>Building trust. Delivering strength.</h2>
+
+```
 <p>
-Supporting builders, contractors, and businesses with reliable supply,
-consistent quality, and strong partnerships.
+  Supporting Builders, Contractors, and Businesses with reliable supply,
+  consistent quality, and strong partnerships.
 </p>
-</div>
+```
+
+  </div>
+
 </section>
 
 <!-- ABOUT -->
@@ -145,7 +152,7 @@ Our focus remains on long-term customer relationships, transparency, and dependa
 <h2>Recognition & Strength</h2>
 
 <p>
-Sri Lakshmi Traders has been recognized as a top-performing dealer in Nagarjuna, Maha, and Ramco Cements
+Sri Lakshmi Traders has been recognized as a top-performing dealer in Nagarjuna,Maha,Ramco Cements
 at the state level, reflecting strong market presence and consistent performance.
 </p>
 
@@ -184,12 +191,12 @@ Open Location
 © Sri Lakshmi Traders
 </footer>
 
-<!-- FLOAT CHAT -->
+<!-- FLOAT -->
 
 <a href="https://wa.me/916304266319?text=Hello%20Sri%20Lakshmi%20Traders"
 class="whatsapp-float" target="_blank">💬</a>
 
-<!-- STICKY BAR -->
+<!-- STICKY -->
 
 <div class="sticky-bar">
 <a href="tel:+919246679204">Call</a>
@@ -200,7 +207,9 @@ class="whatsapp-float" target="_blank">💬</a>
 <script>
 const toggle = document.getElementById("menuToggle");
 const nav = document.getElementById("navLinks");
-toggle.addEventListener("click", () => nav.classList.toggle("active"));
+toggle.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});
 </script>
 
 </body>
