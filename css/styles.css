@@ -276,3 +276,13 @@ padding:120px 0;
 font-size:52px;
 }
 }
+/* REMOVE RANDOM DOTS (pseudo elements) */
+body::before,
+body::after,
+.navbar::before,
+.navbar::after,
+header::before,
+header::after {
+  content: none !important;
+  display: none !important;
+}
